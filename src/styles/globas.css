@@ -31,7 +31,7 @@
 
 @font-face {
   font-family: "Hypebuzz";
-  src: url("./fonts/.ttf") format("opentype");
+  src: url("./fonts/kind-sans-thin.otf") format("opentype");
 }
 
 body {
@@ -49,7 +49,7 @@ p {
 }
 
 .content {
-  font-family: "Hypebuzz", sans-serif !important;
+  font-family: "HumanismRegular", sans-serif !important;
   font-weight: 700;
   font-style: bold;
 }
