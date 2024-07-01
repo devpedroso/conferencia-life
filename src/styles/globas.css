@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Noto Sans", sans-serif;
+
+  --white: #ffffff;
+  --black: #000000;
+  --primary: #8708e3;
+
+  --complement: #efc906;
+  --complement-100: #ffd700;
+
+  --analogous: #5a08e3;
+  --analogous-100: #e308dc;
+
+  --contrast: #4b4b4b;
+  --contrast-100: #cccccc;
+}
+
+@font-face {
+  font-family: "HumanismRegular";
+  src: url("./fonts/humanism-regulardemo.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "HumanismBold";
+  src: url("./fonts/humanism-bolddemo.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Hypebuzz";
+  src: url("./fonts/.ttf") format("opentype");
+}
+
+body {
+  min-height: 100vh;
+  max-width: 768px;
+}
+
+p {
+  color: var(--black);
+}
+
+.title {
+  font-family: "HumanismBold", sans-serif !important;
+  font-style: normal;
+}
+
+.content {
+  font-family: "Hypebuzz", sans-serif !important;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.container-lyrics {
+  background-image: url("../../public/assets/TMJ_PB030.png");
+  background-repeat: repeat(auto-fill, 20px);
+  background-position: center;
+  background-size: 100vw;
+}
+
+.container-social-media {
+  background-image: url("../../public/assets/HANDS_TMJ30.png");
+  background-color: #000000;
+  background-repeat: repeat(auto-fill, 20px);
+  background-position: center;
+  background-size: 100vw;
+}
+
+.container-tema {
+  background-image: url("../../public/assets/GRADE_TMJ10.png");
+  background-color: #000000;
+  background-repeat: repeat(auto-fill, 20px);
+  background-position: center;
+  background-size: 100vw;
+}
+
+.image-repeat {
+  /* background-image: url("../../public/assets/TMJ_BANNER2.png"); */
+  background-color: #000000;
+  background-repeat: repeat(auto-fill, 20px);
+  background-position: center;
+  background-size: 32px;
+}
