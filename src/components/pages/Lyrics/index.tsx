@@ -1,4 +1,4 @@
-import { Collapse } from "antd";
+import { Collapse, Image } from "antd";
 
 import AnimatedSection from "../../../components/generic/AnimatedSection";
 import { AraryLyrics } from "../../../utils/Lyrics";
@@ -8,7 +8,15 @@ const Lyrics = () => {
     return {
       key: AraryLyrics[item].key,
       label: (
-        <div className="flex gap-2 font-bold text-white">
+        <div className="flex items-center gap-2 font-bold text-white">
+          <div className="h-10">
+            <Image
+              src="/assets/TM_SOCO_ROXO.png"
+              preview={false}
+              width={40}
+              className="h-full"
+            />
+          </div>
           <AnimatedSection animate="animate__bounceInRight title-regular animate__delay-0s">
             {AraryLyrics[item].title}
           </AnimatedSection>

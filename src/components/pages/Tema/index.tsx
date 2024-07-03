@@ -23,7 +23,7 @@ const Tema = () => {
           </AnimatedSection>
         </div>
       </div>
-      <AnimatedSection animate="animate__bounceInRight animate__delay-0s">
+      <div className="animate__animated animate__bounceInRight animate__delay-0s">
         {paragraph(
           "42 ",
           `E perseveravam na
@@ -58,7 +58,7 @@ const Tema = () => {
           caindo na graça de todo o povo. E todos os dias acrescentava o Senhor à
           igreja aqueles que se haviam de salvar.`
         )}
-      </AnimatedSection>
+      </div>
     </div>
   );
 };
