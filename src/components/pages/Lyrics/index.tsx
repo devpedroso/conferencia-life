@@ -9,13 +9,13 @@ const Lyrics = () => {
       key: AraryLyrics[item].key,
       label: (
         <div className="flex gap-2 font-bold text-white">
-          <AnimatedSection animate="animate__bounceInRight title-regular">
+          <AnimatedSection animate="animate__bounceInRight title-regular animate__delay-0s">
             {AraryLyrics[item].title}
           </AnimatedSection>
         </div>
       ),
       children: (
-        <AnimatedSection animate="animate__bounceInRight title-regular">
+        <AnimatedSection animate="animate__bounceInRight title-regular animate__delay-0s">
           <div
             dangerouslySetInnerHTML={{
               __html: AraryLyrics[item].lyrics,
@@ -30,7 +30,7 @@ const Lyrics = () => {
   return (
     <div className="py-4">
       <div className="px-4 text-lg text-white">
-        <AnimatedSection animate="animate__bounceInLeft title">
+        <AnimatedSection animate="animate__bounceInLeft title animate__delay-0s">
           Letras
         </AnimatedSection>
       </div>

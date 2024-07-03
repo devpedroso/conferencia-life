@@ -71,8 +71,11 @@ p {
 
 .container-lyrics {
   background-image: url("../../public/assets/BG_LAND.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 100vh;
+  /* height: 100vh; */
+  width: 100%;
 }
 
 .container-tema {

@@ -13,17 +13,17 @@ const Tema = () => {
 
   return (
     <div className="text-white container-tema p-8">
-      <AnimatedSection animate="animate__bounceInLeft">
+      <AnimatedSection animate="animate__bounceInLeft animate__delay-0s">
         <div className="title pb-2 text-lg">Tema</div>
       </AnimatedSection>
       <div className="flex justify-center pb-2">
         <div className="text-base text-[var(--complement)]">
-          <AnimatedSection animate="animate__zoomIn title">
+          <AnimatedSection animate="animate__zoomIn title animate__delay-0s">
             Atos 2: 42-47
           </AnimatedSection>
         </div>
       </div>
-      <AnimatedSection animate="animate__bounceInRight">
+      <AnimatedSection animate="animate__bounceInRight animate__delay-0s">
         {paragraph(
           "42 ",
           `E perseveravam na
