@@ -1,5 +1,7 @@
+import { Collapse } from "antd";
+
+import AnimatedSection from "../../../components/generic/AnimatedSection";
 import { AraryLyrics } from "../../../utils/Lyrics";
-import { Collapse, Image } from "antd";
 
 const Lyrics = () => {
   const items = Object.keys(AraryLyrics).map((item) => {
@@ -21,14 +23,12 @@ const Lyrics = () => {
 
   return (
     <div className="py-4">
-      <div className="animate__animated animate__bounceInLeft title px-4 text-lg text-white">
-        Letras
-      </div>
-      <Collapse
-        ghost
-        items={items}
-        className="animate__animated animate__bounceInRight"
-      />
+      <AnimatedSection animate="animate__bounceInLeft">
+        <div className="title px-4 text-lg text-white">Letras</div>
+      </AnimatedSection>
+      <AnimatedSection animate="animate__bounceInRight">
+        <Collapse ghost items={items} />
+      </AnimatedSection>
     </div>
   );
 };

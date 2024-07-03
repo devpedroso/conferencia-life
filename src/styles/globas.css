@@ -4,6 +4,7 @@
 
 * {
   font-family: "Noto Sans", sans-serif;
+  --animate-delay: 0.5s;
 
   --white: #ffffff;
   --black: #000000;
@@ -74,27 +75,12 @@ p {
   background-size: 100vh;
 }
 
-.container-social-media {
-  background-image: url("../../public/assets/HANDS_TMJ30.png");
-  background-color: #000000;
-  background-repeat: repeat(auto-fill, 20px);
-  background-size: 100vw;
-}
-
 .container-tema {
   background-image: url("../../public/assets/GRADE_TMJ20.png");
   background-color: #000000;
   background-repeat: repeat(auto-fill, 20px);
   background-position: center;
   background-size: 100vw;
-}
-
-.image-repeat {
-  /* background-image: url("../../public/assets/TMJ_BANNER2.png"); */
-  background-color: #000000;
-  background-repeat: repeat(auto-fill, 20px);
-  background-position: center;
-  background-size: 32px;
 }
 
 .ant-collapse-header {
@@ -104,4 +90,11 @@ p {
 
 .ant-collapse-arrow svg {
   color: var(--white);
+}
+
+.animate__animated.animate__fadeInDown,
+.animate__animated.animate__zoomIn,
+.animate__animated.animate__bounceInLeft,
+.animate__animated.animate__bounceInRight {
+  --animate-duration: 2s;
 }

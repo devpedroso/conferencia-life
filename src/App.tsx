@@ -1,27 +1,28 @@
 import "./styles/globas.css";
 import "animate.css";
+
+import { Image } from "antd";
+
 import SocialMedia from "./components/pages/SocialMedia";
-import { Collapse, Image } from "antd";
 import Lyrics from "./components/pages/Lyrics";
-import Ticker from "./components/generic/Ticker";
 import Tema from "./components/pages/Tema";
-import { AnimateSharedLayout } from "framer-motion";
 
 const App = () => {
   return (
     <div>
       <div className="container-lyrics">
         <div className="flex justify-center">
-          <img
+          <Image
             src="/assets/TAMO_JUNTO_LOGO.png"
             alt=""
-            className="animate__animated animate__fadeInDown animate__delay-0.5s p-8 "
-            width={352}
+            className="animate__animated animate__fadeInDown p-10"
+            width={375}
+            preview={false}
           />
         </div>
-        <div className="animate__animated animate__zoomIn title-secondary text-white text-lg text-center py-2 tracking-[.08em] leading-[10px]">
+        <div className="animate__animated animate__zoomIn title-secondary text-white text-xl text-center py-2 tracking-[.08em] leading-[10px]">
           CONFERENCIA LIFE
-          <div className="mr-[50px] text-end title-StretchPro text-xs text-[var(--complement)]">
+          <div className="ml-[248px] title-StretchPro text-xs text-[var(--complement)]">
             2K24
           </div>
         </div>
