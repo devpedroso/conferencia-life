@@ -8,27 +8,34 @@ const Lyrics = () => {
     return {
       key: AraryLyrics[item].key,
       label: (
-        <div className="flex gap-2 title-regular font-bold text-white">
-          {AraryLyrics[item].title}
+        <div className="flex gap-2 font-bold text-white">
+          <AnimatedSection animate="animate__bounceInRight title-regular">
+            {AraryLyrics[item].title}
+          </AnimatedSection>
         </div>
       ),
       children: (
-        <div
-          dangerouslySetInnerHTML={{ __html: AraryLyrics[item].lyrics }}
-          style={{ lineHeight: "20px", color: "white" }}
-        />
+        <AnimatedSection animate="animate__bounceInRight title-regular">
+          <div
+            dangerouslySetInnerHTML={{
+              __html: AraryLyrics[item].lyrics,
+            }}
+            style={{ lineHeight: "20px", color: "white" }}
+          />
+        </AnimatedSection>
       ),
     };
   });
 
   return (
     <div className="py-4">
-      <AnimatedSection animate="animate__bounceInLeft">
-        <div className="title px-4 text-lg text-white">Letras</div>
-      </AnimatedSection>
-      <AnimatedSection animate="animate__bounceInRight">
-        <Collapse ghost items={items} />
-      </AnimatedSection>
+      <div className="px-4 text-lg text-white">
+        <AnimatedSection animate="animate__bounceInLeft title">
+          Letras
+        </AnimatedSection>
+      </div>
+
+      <Collapse ghost items={items} />
     </div>
   );
 };
