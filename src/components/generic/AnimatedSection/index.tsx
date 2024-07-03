@@ -10,7 +10,7 @@ const AnimatedSection = ({ animate = "", children }) => {
     <div
       ref={ref}
       className={`animate__animated ${inView ? animate : ""}`}
-      style={inView ? { display: "hidden" } : null}
+      style={!inView ? { display: "hidden" } : null}
     >
       {children}
     </div>
