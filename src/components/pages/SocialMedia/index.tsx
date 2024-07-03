@@ -4,10 +4,13 @@ import SocialMediaItem from "../../generic/SocialMediaItem";
 
 const SocialMedia = () => {
   return (
-    <div className="flex flex-col gap-4 text-white container-social-media p-4 py-8">
-      <div className="title text-base">Redes socias</div>
+    <div className="flex flex-col gap-5 text-white p-5">
+      <div className="animate__animated animate__bounceInLeft leading-[10px] ">
+        <div className="title text-[8px]">NOSSAS</div>
+        <div className="title text-[18px] text-white">Redes Sociais</div>
+      </div>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="animate__animated animate__bounceInRight grid grid-cols-2 gap-4">
         <SocialMediaItem
           href="https://www.instagram.com/geracaolife/"
           src="/assets/icons/instagram_icon.png"

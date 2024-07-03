@@ -10,9 +10,13 @@ const Tema = () => {
   };
 
   return (
-    <div className="container-tema text-white p-4">
-      <div className="title text-[var(--complement)] pb-2">Tema</div>
-      <b className="title text-sm text-[var(--complement)]">Atos 2: 42-47</b>
+    <div className="text-white container-tema p-8">
+      <div className="title pb-2 text-lg">Tema</div>
+      <div className="flex justify-center pb-2">
+        <b className="title text-base text-[var(--complement)]">
+          Atos 2: 42-47
+        </b>
+      </div>
       <div className="flex flex-col gap-2">
         {paragraph(
           "42 ",

@@ -8,7 +8,7 @@ const SocialMediaItem = ({ href, src, text }) => {
       <a href={href}>
         <div className="flex gap-2 items-center">
           <Image preview={false} src={src} width={32} height={32} />
-          <div className="content text-sm font-bold	">{text}</div>
+          <div className="title text-sm">{text}</div>
         </div>
       </a>
     </div>

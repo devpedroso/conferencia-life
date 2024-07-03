@@ -1,7 +1,7 @@
 export const AraryLyrics = {
   redentor: {
     key: 1,
-    title: "Redentor + Não Seremos Abalados (Medley)",
+    title: "Redentor / Nao Seremos Abalados (Medley)",
     lyrics: `
     <p>
         Desde o ventre me conheces<br/>
@@ -72,7 +72,7 @@ export const AraryLyrics = {
   },
   relance: {
     key: 2,
-    title: "Relance + Alfa e Ômega (Medley)",
+    title: "Relance / Alfa e Omega (Medley)",
     lyrics: `
     <p>
       <b>SOLO</b><br/>
@@ -413,7 +413,7 @@ export const AraryLyrics = {
   },
   minha_bencao: {
     key: 6,
-    title: "Medley minha benção + Unção de Deus",
+    title: "Minha bencao / Uncao de Deus (Medley)",
     lyrics: `<p>
     De tanto ele insistir, o anjo lhe tocou<br/>
     E abençoado ele foi.<br/><br/>

@@ -30,8 +30,13 @@
 }
 
 @font-face {
-  font-family: "Hypebuzz";
-  src: url("./fonts/kind-sans-thin.otf") format("opentype");
+  font-family: "BrigendsExpanded";
+  src: url("./fonts/brigendsexpanded-nrek1.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "StretchPro";
+  src: url("./fonts/StretchPro.otf") format("opentype");
 }
 
 body {
@@ -40,7 +45,7 @@ body {
 }
 
 p {
-  color: var(--black);
+  color: var(--white);
 }
 
 .title {
@@ -48,29 +53,36 @@ p {
   font-style: normal;
 }
 
-.content {
+.title-regular {
   font-family: "HumanismRegular", sans-serif !important;
-  font-weight: 700;
-  font-style: bold;
+  font-style: normal;
+}
+
+.title-secondary {
+  font-family: "BrigendsExpanded", sans-serif !important;
+  font-style: normal;
+}
+
+.title-StretchPro {
+  font-family: "StretchPro", sans-serif !important;
+  font-style: normal;
 }
 
 .container-lyrics {
-  background-image: url("../../public/assets/TMJ_PB030.png");
-  background-repeat: repeat(auto-fill, 20px);
+  background-image: url("../../public/assets/BG_LAND.png");
   background-position: center;
-  background-size: 100vw;
+  background-size: 100vh;
 }
 
 .container-social-media {
   background-image: url("../../public/assets/HANDS_TMJ30.png");
   background-color: #000000;
   background-repeat: repeat(auto-fill, 20px);
-  background-position: center;
   background-size: 100vw;
 }
 
 .container-tema {
-  background-image: url("../../public/assets/GRADE_TMJ10.png");
+  background-image: url("../../public/assets/GRADE_TMJ20.png");
   background-color: #000000;
   background-repeat: repeat(auto-fill, 20px);
   background-position: center;
@@ -83,4 +95,13 @@ p {
   background-repeat: repeat(auto-fill, 20px);
   background-position: center;
   background-size: 32px;
+}
+
+.ant-collapse-header {
+  display: flex;
+  align-items: center !important;
+}
+
+.ant-collapse-arrow svg {
+  color: var(--white);
 }
