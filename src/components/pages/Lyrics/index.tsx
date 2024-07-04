@@ -36,7 +36,7 @@ const Lyrics = () => {
   });
 
   return (
-    <div className="py-4">
+    <div className="pt-4 pb-8">
       <div className="px-4 text-2xl text-white">
         <AnimatedSection animate="animate__bounceInLeft title animate__delay-0s">
           Letras

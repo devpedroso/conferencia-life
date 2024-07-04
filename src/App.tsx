@@ -20,11 +20,11 @@ const App = () => {
             preview={false}
           />
         </div>
-        <div className="flex gap-2 pt-2 justify-center">
-          <div className="title text-white text-3xl animate__animated animate__jackInTheBox">
+        <div className="flex gap-2 pb-4 justify-center">
+          <div className="title text-white text-[32px] animate__animated animate__jackInTheBox">
             CONFERENCIA LIFE
           </div>
-          <div className="title text-3xl text-[var(--complement)] animate__animated animate__jackInTheBox animate__delay-3s">
+          <div className="title text-[32px] text-[var(--complement)] animate__animated animate__jackInTheBox animate__delay-3s">
             2K24
           </div>
         </div>
