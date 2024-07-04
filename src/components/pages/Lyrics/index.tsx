@@ -17,13 +17,13 @@ const Lyrics = () => {
               className="h-full"
             />
           </div>
-          <AnimatedSection animate="animate__bounceInRight title-regular animate__delay-0s">
+          <AnimatedSection animate="animate__bounceInRight title-secondary animate__delay-0s text-base">
             {AraryLyrics[item].title}
           </AnimatedSection>
         </div>
       ),
       children: (
-        <AnimatedSection animate="animate__bounceInRight title-regular animate__delay-0s">
+        <AnimatedSection animate="animate__bounceInRight title-secondary animate__delay-0s">
           <div
             dangerouslySetInnerHTML={{
               __html: AraryLyrics[item].lyrics,
@@ -37,13 +37,13 @@ const Lyrics = () => {
 
   return (
     <div className="py-4">
-      <div className="px-4 text-lg text-white">
+      <div className="px-4 text-2xl text-white">
         <AnimatedSection animate="animate__bounceInLeft title animate__delay-0s">
           Letras
         </AnimatedSection>
       </div>
 
-      <Collapse ghost items={items} />
+      <Collapse accordion ghost items={items} />
     </div>
   );
 };

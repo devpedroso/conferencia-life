@@ -20,9 +20,11 @@ const App = () => {
             preview={false}
           />
         </div>
-        <div className="animate__animated animate__zoomIn title-secondary text-white text-xl text-center py-2 tracking-[.08em] leading-[10px]">
-          CONFERENCIA LIFE
-          <div className="ml-[248px] title-StretchPro text-xs text-[var(--complement)]">
+        <div className="flex gap-2 pt-2 justify-center">
+          <div className="title text-white text-3xl animate__animated animate__jackInTheBox">
+            CONFERENCIA LIFE
+          </div>
+          <div className="title text-3xl text-[var(--complement)] animate__animated animate__jackInTheBox animate__delay-3s">
             2K24
           </div>
         </div>

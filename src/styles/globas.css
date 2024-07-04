@@ -21,23 +21,13 @@
 }
 
 @font-face {
-  font-family: "HumanismRegular";
-  src: url("./fonts/humanism-regulardemo.otf") format("opentype");
+  font-family: "Good";
+  src: url("./fonts/Good\ Brush.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "HumanismBold";
-  src: url("./fonts/humanism-bolddemo.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "BrigendsExpanded";
-  src: url("./fonts/brigendsexpanded-nrek1.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "StretchPro";
-  src: url("./fonts/StretchPro.otf") format("opentype");
+  font-family: "Obvia";
+  src: url("./fonts/Obvia\ md.otf") format("opentype");
 }
 
 body {
@@ -46,27 +36,21 @@ body {
 }
 
 p {
+  font-family: "Obvia", sans-serif !important;
   color: var(--white);
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .title {
-  font-family: "HumanismBold", sans-serif !important;
-  font-style: normal;
-}
-
-.title-regular {
-  font-family: "HumanismRegular", sans-serif !important;
+  font-family: "Good", sans-serif !important;
   font-style: normal;
 }
 
 .title-secondary {
-  font-family: "BrigendsExpanded", sans-serif !important;
+  font-family: "Obvia", sans-serif !important;
   font-style: normal;
-}
-
-.title-StretchPro {
-  font-family: "StretchPro", sans-serif !important;
-  font-style: normal;
+  font-weight: 400;
 }
 
 .container-lyrics {

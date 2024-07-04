@@ -3,10 +3,9 @@ import AnimatedSection from "../../../components/generic/AnimatedSection";
 const Tema = () => {
   const paragraph = (number, text) => {
     return (
-      <div className="text-sm">
-        <b className="title text-[var(--complement)]">{number}</b>
-        {text}
-        <br />
+      <div className="flex gap-1 pb-2 text-sm">
+        <div className="title text-[var(--complement)]">{number}</div>
+        <p>{text}</p>
       </div>
     );
   };
@@ -14,11 +13,11 @@ const Tema = () => {
   return (
     <div className="text-white container-tema p-8">
       <AnimatedSection animate="animate__bounceInLeft animate__delay-0s">
-        <div className="title pb-2 text-lg">Tema</div>
+        <div className="title pb-2 text-2xl">Tema</div>
       </AnimatedSection>
       <div className="flex justify-center pb-2">
-        <div className="text-base text-[var(--complement)]">
-          <AnimatedSection animate="animate__zoomIn title animate__delay-0s">
+        <div className="text-lg text-[var(--complement)]">
+          <AnimatedSection animate="title animate__zoomIn  animate__delay-0s">
             Atos 2: 42-47
           </AnimatedSection>
         </div>

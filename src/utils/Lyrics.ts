@@ -336,79 +336,81 @@ export const AraryLyrics = {
     key: 5,
     title: "Acende outra vez",
     lyrics: `     
-    <b>SOLO</b><br/>
-    Ouço um barulho diferente<br/>
-    É como um vento veemente<br/>
-    Eu vejo línguas como o que de fogo<br/>
-    Pousando sobre o ambiente<br/><br/>
-    <b>TODOS</b><br/>
-    Nós estamos reunidos<br/>
-    A casa está preparada<br/>
-    Pode soprar o vento<br/>
-    Reacender a brasa<br/>
-    Nós estamos reunidos<br/>
-    A casa está preparada<br/>
-    Pode soprar o vento<br/>
-    Reacender a brasa<br/><br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim<br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim<br/><br/>
-    Ouço um barulho diferente<br/>
-    É como um vento veemente<br/>
-    Eu vejo línguas como o que de fogo<br/>
-    Pousando sobre o ambiente<br/><br/>
-    Nós estamos reunidos<br/>
-    A casa está preparada<br/>
-    Pode soprar o vento<br/>
-    Reacender a brasa<br/>
-    Nós estamos reunidos<br/>
-    A casa está preparada<br/>
-    Pode soprar o vento<br/>
-    Reacender a brasa<br/><br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim<br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim<br/><br/>
-    <b>DECLAMAÇÃO!!!</b><br/><br/>
-    <b>TODOS</b><br/>
-    Acende outra vez Tua chama em nós<br/>
-    Aviva outra vez<br/>
-    Aviva outra vez<br/><br/>
-    Acende outra vez Tua chama em nós<br/>
-    Aviva outra vez<br/>
-    Aviva outra vez<br/><br/>
-    Acende outra vez Tua chama em nós<br/>
-    Aviva outra vez<br/>
-    Aviva outra vez<br/><br/>
-    A nossa geração tem lenha pra queimar<br/>
-    Pode incendiar<br/>
-    Vem nos batizar<br/><br/>
-    A nossa geração tem lenha pra queimar<br/>
-    Pode incendiar<br/>
-    Vem nos batizar<br/><br/>
-    A nossa geração tem lenha(tem lenha, <br/>
-    tem lenha) pra queimar<br/>
-    Pode incendiar<br/>
-    Vem nos batizar<br/><br/>
-    A nossa geração tem lenha(tem lenha. <br/>
-    Tem lenha) pra queimar<br/>
-    Pode incendiar<br/>
-    Vem nos batizar<br/><br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim<br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim<br/><br/>
-    A nossa geração tem lenha pra queimar<br/>
-    Pode incendiar<br/>
-    Vem nos batizar<br/><br/>
-    A nossa geração tem lenha pra queimar<br/>
-    Pode incendiar<br/>
-    Vem nos batizar<br/><br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim<br/>
-    Me batiza com fogo<br/>
-    Reacende a chama em mim.<br/>
+    <p>
+      <b>SOLO</b><br/>
+      Ouço um barulho diferente<br/>
+      É como um vento veemente<br/>
+      Eu vejo línguas como o que de fogo<br/>
+      Pousando sobre o ambiente<br/><br/>
+      <b>TODOS</b><br/>
+      Nós estamos reunidos<br/>
+      A casa está preparada<br/>
+      Pode soprar o vento<br/>
+      Reacender a brasa<br/>
+      Nós estamos reunidos<br/>
+      A casa está preparada<br/>
+      Pode soprar o vento<br/>
+      Reacender a brasa<br/><br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim<br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim<br/><br/>
+      Ouço um barulho diferente<br/>
+      É como um vento veemente<br/>
+      Eu vejo línguas como o que de fogo<br/>
+      Pousando sobre o ambiente<br/><br/>
+      Nós estamos reunidos<br/>
+      A casa está preparada<br/>
+      Pode soprar o vento<br/>
+      Reacender a brasa<br/>
+      Nós estamos reunidos<br/>
+      A casa está preparada<br/>
+      Pode soprar o vento<br/>
+      Reacender a brasa<br/><br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim<br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim<br/><br/>
+      <b>DECLAMAÇÃO!!!</b><br/><br/>
+      <b>TODOS</b><br/>
+      Acende outra vez Tua chama em nós<br/>
+      Aviva outra vez<br/>
+      Aviva outra vez<br/><br/>
+      Acende outra vez Tua chama em nós<br/>
+      Aviva outra vez<br/>
+      Aviva outra vez<br/><br/>
+      Acende outra vez Tua chama em nós<br/>
+      Aviva outra vez<br/>
+      Aviva outra vez<br/><br/>
+      A nossa geração tem lenha pra queimar<br/>
+      Pode incendiar<br/>
+      Vem nos batizar<br/><br/>
+      A nossa geração tem lenha pra queimar<br/>
+      Pode incendiar<br/>
+      Vem nos batizar<br/><br/>
+      A nossa geração tem lenha(tem lenha, <br/>
+      tem lenha) pra queimar<br/>
+      Pode incendiar<br/>
+      Vem nos batizar<br/><br/>
+      A nossa geração tem lenha(tem lenha. <br/>
+      Tem lenha) pra queimar<br/>
+      Pode incendiar<br/>
+      Vem nos batizar<br/><br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim<br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim<br/><br/>
+      A nossa geração tem lenha pra queimar<br/>
+      Pode incendiar<br/>
+      Vem nos batizar<br/><br/>
+      A nossa geração tem lenha pra queimar<br/>
+      Pode incendiar<br/>
+      Vem nos batizar<br/><br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim<br/>
+      Me batiza com fogo<br/>
+      Reacende a chama em mim.<br/>
+    </p>
     `,
   },
   minha_bencao: {
