@@ -57,6 +57,8 @@ p {
   background-image: url("../../public/assets/BG_LAND.png");
   background-size: cover;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-repeat: no-repeat;
   -webkit-background-repeat: no-repeat;
   -webkit-background-position: center;
