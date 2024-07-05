@@ -26,7 +26,7 @@ const Contributions = () => {
           Dízimos e ofertas
         </AnimatedSection>
         <AnimatedSection animate="animate__zoomIn animate__delay-0s">
-          <Image src="/assets/QRCODE.jpg" className="py-2" />
+          <Image src="/assets/QRCODE.jpg" className="py-2" preview={false} />
         </AnimatedSection>
         <AnimatedSection animate="title animate__bounceInRight animate__delay-0s">
           Chave PIX

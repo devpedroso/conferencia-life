@@ -101,6 +101,7 @@ p {
 }
 
 .ant-image-preview-operations svg,
-.ant-image-preview-close svg {
+.ant-image-preview-close svg,
+.ant-collapse-arrow svg {
   color: var(--white) !important;
 }
