@@ -23,7 +23,7 @@ const Lyrics = () => {
         </div>
       ),
       children: (
-        <AnimatedSection animate="animate__fadeIn title-secondary animate__delay-0s">
+        <AnimatedSection animate="animate__slideInUp title-secondary">
           <div
             dangerouslySetInnerHTML={{
               __html: AraryLyrics[item].lyrics,

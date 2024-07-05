@@ -6,8 +6,10 @@ const SocialMedia = () => {
   return (
     <div className="flex flex-col gap-5 text-white p-4">
       <div className="animate__animated animate__bounceInLeft leading-[18px] ">
-        <div className="title text-[14px]">NOSSAS</div>
-        <div className="title text-[24px] text-white">Redes Sociais</div>
+        <div className="title text-[18px]">Siga nossas</div>
+        <div className="title text-[24px] text-[var(--complement)]">
+          Redes Sociais
+        </div>
       </div>
 
       <div className="grid grid-cols-2 gap-4 px-4 max-w-[416px] animate__animated animate__bounceInRight">
