@@ -53,7 +53,7 @@ p {
   font-weight: 400;
 }
 
-.container-lyrics {
+.container {
   background-image: url("../../public/assets/BG_LAND.png");
   background-size: cover;
   -webkit-background-size: cover;
@@ -88,4 +88,19 @@ p {
 .animate__animated.animate__bounceInLeft,
 .animate__animated.animate__bounceInRight {
   --animate-duration: 2s;
+}
+
+.anticon svg {
+  font-size: 16px;
+  color: var(--black);
+}
+
+.ant-image-preview-operations,
+.ant-image-preview-close {
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.ant-image-preview-operations svg,
+.ant-image-preview-close svg {
+  color: var(--white) !important;
 }
