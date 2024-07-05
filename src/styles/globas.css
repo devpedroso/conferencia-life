@@ -114,3 +114,20 @@ p {
 .ant-collapse-arrow svg {
   color: var(--white) !important;
 }
+
+.pulse {
+  box-shadow: 0 0 32px black;
+  animation: pulsate 2s ease-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 12px black;
+  }
+  50% {
+    box-shadow: 0 0 32px black;
+  }
+  100% {
+    box-shadow: 0 0 12px black;
+  }
+}

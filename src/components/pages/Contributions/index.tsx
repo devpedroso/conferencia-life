@@ -39,7 +39,7 @@ const Contributions = () => {
           <div className="flex flex-col items-center gap-2 justify-around">
             <p className="text-lg">CNPJ: 45.275.005.0001/65</p>
             <CopyToClipboard text={value} onCopy={onCopyToClipboard}>
-              <Button className="animate__animated animate__pulse animate__infinite">
+              <Button className="pulse animate__animated animate__pulse animate__infinite">
                 {copied ? (
                   <div className="flex items-center gap-2">
                     <CheckOutlined />
