@@ -7,7 +7,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import AnimatedSection from "../../../components/generic/AnimatedSection";
 
 const Contributions = () => {
-  const [value, setValue] = useState("45.275.005.0001/65");
+  const [value, setValue] = useState("45275005000165");
   const [copied, setCopied] = useState(false);
 
   const onCopyToClipboard = () => {
